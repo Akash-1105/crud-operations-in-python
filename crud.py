@@ -7,7 +7,7 @@ mysqldb = mysql.connector.connect(
     database="crud",         # Database name
     password=""              # Password (empty in this case)
 )
-print("connected")  # Print a message confirming the connection
+print( "connected" )  # Print a message confirming the connection
 
 # Create a cursor object to interact with the database
 sur = mysqldb.cursor()
