@@ -5,7 +5,7 @@ mysqldb = mysql.connector.connect(
     host="localhost",        # Hostname
     user="root",             # Username
     database="crud",         # Database name
-    password=""              # Password 
+    password=""              # your Password 
 )
 print( "connected" )  # Print a message confirming the connection
 
