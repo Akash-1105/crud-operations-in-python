@@ -38,7 +38,7 @@ print("updated")  # Print a message confirming the update
 # Drop the class10 table if it exists
 sur = mysqldb.cursor()
 sur.execute("DROP TABLE class10")
-print("delete")  # Print a message confirming the deletion
+print("delete")  # Print a message confirming the deletion 
 mysqldb.commit()  # Commit the transaction
 
 # Close the database connection
