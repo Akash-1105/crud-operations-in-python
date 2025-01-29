@@ -41,5 +41,5 @@ sur.execute("DROP TABLE class10")
 print("delete")  # Print a message confirming the deletion 
 mysqldb.commit()  # Commit the transaction
 
-# Close the database connection
+# Close the database connection.
 mysqldb.close()
