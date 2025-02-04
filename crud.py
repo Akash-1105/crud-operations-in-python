@@ -1,4 +1,4 @@
- import mysql.connector  # Import the MySQL connector module
+ import mysql.connector  #  Import the MySQL connector module
 
 # Connect to the database
 mysqldb = mysql.connector.connect(
