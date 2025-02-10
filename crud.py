@@ -8,7 +8,7 @@ mysqldb = mysql.connector.connect(
     password=""              # your Password 
 )
 print( "connected" )  # Print a message confirming the connection
-
+ 
 # Create a cursor object to interact with the database
 sur = mysqldb.cursor()
 
